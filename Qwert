@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сайт</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">MY SITE</div>
+
+        <nav>
+            <a href="#home">Главная</a>
+            <a href="#about">О нас</a>
+            <a href="#works">Работы</a>
+        </nav>
+    </header>
+
+
+    <!-- ЭКРАН 1 -->
+    <section id="home" class="screen home">
+        <div class="content">
+            <div class="text">
+                <h1>Добро пожаловать!</h1>
+
+                <p>
+                    Это главная страница моего сайта.
+                    Здесь можно разместить краткое описание
+                    проекта, компании или своей деятельности.
+                </p>
+
+                <p>
+                    На сайте представлены информация обо мне,
+                    мои работы и другие полезные материалы.
+                </p>
+            </div>
+
+            <div class="image">
+                <img src="image1.jpg" alt="Главная картинка">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ЭКРАН 2 -->
+    <section id="about" class="screen about">
+        <div class="content reverse">
+            <div class="image">
+                <img src="image2.jpg" alt="О нас">
+            </div>
+
+            <div class="text">
+                <h2>О нас</h2>
+
+                <p>
+                    Здесь находится информация о проекте.
+                    Можно рассказать о целях, задачах и
+                    особенностях сайта.
+                </p>
+
+                <p>
+                    Мы стараемся создавать интересные,
+                    удобные и современные проекты.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ЭКРАН 3 -->
+    <section id="works" class="screen works">
+        <h2>Мои работы</h2>
+
+        <p class="description">
+            Здесь представлены примеры выполненных работ.
+        </p>
+
+        <div class="cards">
+
+            <div class="card">
+                <img src="image3.jpg" alt="Работа 1">
+                <h3>Работа №1</h3>
+                <p>
+                    Краткое описание первой работы.
+                </p>
+            </div>
+
+            <div class="card">
+                <img src="image4.jpg" alt="Работа 2">
+                <h3>Работа №2</h3>
+                <p>
+                    Краткое описание второй работы.
+                </p>
+            </div>
+
+            <div class="card">
+                <img src="image5.jpg" alt="Работа 3">
+                <h3>Работа №3</h3>
+                <p>
+                    Краткое описание третьей работы.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-block">
+            <h3>Контакты</h3>
+            <p>Телефон: +7 900 000-00-00</p>
+            <p>Email: example@mail.ru</p>
+        </div>
+
+        <div class="footer-block">
+            <h3>Адрес</h3>
+            <p>г. Москва</p>
+            <p>ул. Примерная, 10</p>
+        </div>
+
+        <div class="footer-block">
+            <h3>Ссылки</h3>
+            <p><a href="#">Моя работа</a></p>
+            <p><a href="#">Мой проект</a></p>
+        </div>
+
+    </footer>
+
+</body>
+</html>
